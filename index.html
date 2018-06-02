@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Notenrechner</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="input" id="input">
+    <div class="input-field col s6">
+      <input id="de" type="number" class="validate" min="0" max="15" step="1">
+      <label for="de">Deutsch:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="ma" type="number" class="validate" min="0" max="15" step="1">
+      <label for="ma">Mathe:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="en" type="number" class="validate" min="0" max="15" step="1">
+      <label for="en">Englisch:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="ph" type="number" class="validate" min="0" max="15" step="1">
+      <label for="ph">Physik:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="inf" type="number" class="validate" min="0" max="15" step="1">
+      <label for="inf">Informatik:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="sn" type="number" class="validate" min="0" max="15" step="1">
+      <label for="sn">Spanisch:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="ge" type="number" class="validate" min="0" max="15" step="1">
+      <label for="ge">Geschichte:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="sp" type="number" class="validate" min="0" max="15" step="1">
+      <label for="sp">Sport:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="ds" type="number" class="validate" min="0" max="15" step="1">
+      <label for="ds">Dartstellendes Spiel:</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="pb" type="number" class="validate" min="0" max="15" step="1">
+      <label for="pb">Politische Bildung:</label>
+    </div>
+  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action" onclick="Evaluate()">Submit
+  <i class="material-icons right">send</i>
+</button>
+</body>
+</html>
